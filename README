@@ -1,16 +1,26 @@
 Version 0.0.1
-
 -----------------------------------------
 Zumron is a php driven project.
 
-you can add your favorite Usenet tools to this page.
+You can add your favorite Usenet tools to this page.
 
------------------------------------------
-Changelog:
-Initial Version 0.0.1:
-Date: 15-06-2012 
-Added: 
-	Top menu - config mode
-	
+Things you need to have installed before installation of zumron
+Apache2 
+php5.3
+github
 
 
+--- Installation ---
+
+Basic apache2 + php5.3 installation 
+
+Goto /var/www/
+git clone https://github.com/rudie2004/Zumron.git
+
+Or 
+
+Unpack in a directory where your webserver is running.
+
+--- Configuration ---
+
+Goto the folder components then topmenu and edit the config.php page.

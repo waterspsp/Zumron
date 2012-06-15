@@ -35,23 +35,6 @@
   		</div>
     <IFRAME id="frame" SRC="main.php" name=main style="width:100%;	height:94%;border:0px;margin-top:-1px " frameborder="0"
 	 scrolling="yes" ></IFRAME>
-	 
-	<script type="text/javascript">
-	function resizeIframe() {
-	    var height = document.documentElement.clientHeight;
-	    height -= document.getElementById('frame').offsetTop;
-	    
-	    // not sure how to get this dynamically
-	    height -= 20; /* whatever you set your body bottom margin/padding to be */
-	    
-	    document.getElementById('frame').style.height = height +"px";
-		    
-		};
-		document.getElementById('frame').onload = resizeIframe;
-		window.onresize = resizeIframe;
-	</script>
-
-
 	<noframes>
 	    <p>Your browser does not support frames</p>
 	</noframes>

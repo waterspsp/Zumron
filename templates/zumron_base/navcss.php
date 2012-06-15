@@ -1,3 +1,7 @@
+<?php
+header("Content-type: text/css"); 
+$url_folder = substr(substr($_SERVER["REQUEST_URI"],1), 0, strpos(substr($_SERVER["REQUEST_URI"],1), "/"));
+?>
 
 body { 
 	margin: 0px 0px 0px 0px; 
@@ -22,7 +26,7 @@ body {
 }
 
 #menu-left {
-   	background-image: url(/templates/zumron_base/images/left_logo.png);
+   	background-image: url(/<?php echo $url_folder ;?>/templates/zumron_base/images/left_logo.png);
 	height:74px;
 	width:222px;
 	float:left;	

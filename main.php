@@ -1,4 +1,7 @@
-<link rel="stylesheet" type="text/css" href="templates/zumron_base/styles.css" />
+<?php
+$url_folder = substr(substr($_SERVER["REQUEST_URI"],1), 0, strpos(substr($_SERVER["REQUEST_URI"],1), "/"));
+?>
+<link rel="stylesheet" type="text/css" href="/<?php echo $url_folder ;?>/templates/zumron_base/styles.css" />
 <body>
 	<div class="all">
 		<div class="column-middle" id="column1">

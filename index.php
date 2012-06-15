@@ -5,7 +5,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
   <head>
     <title>Zumron</title>
-  		<link rel="stylesheet" type="text/css" href="templates/zumron_base/nav.css">
+  		<link rel="stylesheet" type="text/css" href="templates/zumron_base/navcss.php">
   </head>
   <body>
   		<div id="header">

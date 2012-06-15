@@ -33,7 +33,7 @@
 				</ul>
 			</div>
   		</div>
-    <IFRAME id="frame" SRC="main.php" name=main style="width:100%;	height:93%;border:0px;margin-top:-1px " frameborder="0"
+    <IFRAME id="frame" SRC="main.php" name=main style="width:100%;	height:94%;border:0px;margin-top:-1px " frameborder="0"
 	 scrolling="yes" ></IFRAME>
 	 
 	<script type="text/javascript">

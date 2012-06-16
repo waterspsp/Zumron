@@ -18,6 +18,7 @@ $subnavlink["Nzbindex"] = "http://www.nzbindex.nl";
 // enter other links
 $settingslink["Settings"] = "/Zumron/Settings";
 
+//Enter here the application settings
 $settings["sabnzbdip"] = "LOCALHOST";
 $settings["sabnzbdport"] = "8080";
 $settings["sabnzbdapi"] = "CHANGEAPIKEY";

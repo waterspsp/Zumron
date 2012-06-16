@@ -23,4 +23,4 @@ Unpack in a directory where your webserver is running.
 
 --- Configuration ---
 
-Goto the folder components then topmenu and edit the config.php page.
+Edit the config.php page in the root of your Zumron directory.

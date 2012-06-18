@@ -1,0 +1,19 @@
+####################################
+Current version. 0.0.2
+####################################
+
+0.0.2
+- New default layout which we can build on
+	- Clean look 
+	- New logo
+	
+0.0.1
+- Added Config File
+- Added 3 front boxes 
+  - Sabnzbd current queue
+  - Sabnzbd 5 latest downloads
+  - Sabnzbd overview
+  
+Initial Release
+- Basic Layout
+- Basic Menu

@@ -65,9 +65,6 @@ ul#sub-menu { float: left; }
 		.navsub li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
 
 
-/*------------------------------------------------*/
-/*-----------------[RESET]------------------------*/
-/*------------------------------------------------*/
 
 
 html, body, div, span, applet, object, iframe,

@@ -31,6 +31,15 @@ text-align: left;
 padding-left: 16px;
 font-size: 14px;
 }
+.dragbox-content a{
+    text-decoration:none;
+    color:#323b44;
+}
+
+.dragbox-content a:hover{
+    text-decoration:none;
+    color:#ffffff;
+}
 #clearfix{
 	float:left;	
 	

@@ -1,9 +1,16 @@
-Version 0.0.1
+Zumron Version 0.0.3
 -----------------------------------------
-Zumron is a php driven project.
+Zumron is an PHP Dashboard for your favortie Usenet tools
 
-You can add your favorite Usenet tools to this page.
+Sabnzbd
+Couchpotato
+Sickbeard
+Headphones
 
+And many other http or http driven project / tools
+
+
+--- Requirements ---
 Things you need to have installed before installation of zumron
 Apache2 
 php5.3
@@ -11,7 +18,6 @@ github
 
 
 --- Installation ---
-
 Basic apache2 + php5.3 installation 
 
 Goto /var/www/

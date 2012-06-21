@@ -1,6 +1,16 @@
 ####################################
-Current version. 0.0.2
+Current version. 0.0.3
 ####################################
+0.0.3
+- Main screen 
+	- Added Categorie boxes
+		Boxes on the main screen will be build automaticly based on the categories 
+		which are available whitin the Sabnzbd configuration. 
+		
+		if a download has finished it will be placed under a categorie for example movies, 
+		than that download will be visible under the Top 10 Movie box.		
+		
+		from now on there will be a check build in to the mainscreen to check if a download file has an link in it (based on a nzb)	
 
 0.0.2
 - New default layout which we can build on

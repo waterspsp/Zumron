@@ -9,7 +9,7 @@
   </head>
   <body>
   		<div id="header">
-  			<div class="clearfix"><img src="templates/zumron_base/images/zumronlogo.png" /></div>
+  		<div class="clearfix"><a href="http://www.zumron.net"style="border: 0px" target="_blank"><img src="templates/zumron_base/images/zumronlogo.png" /></a></div>
 						
 								<div id="menu-content">
 										

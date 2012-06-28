@@ -5,6 +5,8 @@ $navlink["Home"] = "main.php";
 //$navlink["XBMC"] = "http://xmbc.local.lan:8080";
 //$navlink["Sickbeard"] = "http://sickbeard.local.lan:8081";
 //$navlink["Couch Potato"] = "http://couchpotato.local.lan:8082";
+//$navlink["Headphones"] = "http://headphones.local.lan:8085";
+//$navlink["Lazy librarian"] = "http://lazylibrarian.local.lan:8085";
 //$navlink["Sabnzbd"] = "http://sabnzbd.local.lan:8085";
 
 

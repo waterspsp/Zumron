@@ -19,7 +19,7 @@ $subnavlink["Nzbmatrix"] = "http://www.nzbmatrix.com";
 $subnavlink["IMDB"] = "http://www.imdb.com";
 $subnavlink["Nzbindex"] = "http://www.nzbindex.nl";
 $subnavlink["Tvrage"] = "http://www.tvrage.com";
-
+ 
 
 //Enter here the application settings
 $settings["sabnzbdip"] = "LOCALHOST";

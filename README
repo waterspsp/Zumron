@@ -6,7 +6,7 @@ Sabnzbd
 Couchpotato
 Sickbeard
 Headphones
-
+Spotweb
 And many other http or http driven project / tools
 
 
@@ -14,7 +14,11 @@ And many other http or http driven project / tools
 Things you need to have installed before installation of zumron
 Apache2 
 php5.3
+Mysql
 github
+
+Recommended:
+Phpmyadmin
 
 
 --- Installation ---
@@ -27,7 +31,7 @@ Or
 
 Unpack in a directory where your webserver is running.
 
-Import the sql file 
+Import the sql file which can be found in the root of the Zumron directory
 zumron.sql this can be done with phpmyadmin
 
 --- Configuration ---

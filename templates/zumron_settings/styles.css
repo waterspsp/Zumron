@@ -1,0 +1,39 @@
+body{
+background-repeat:no-repeat;
+background-size:100%;
+background-color:#e9e9e9;
+margin:0;
+font-family: verdana;
+}
+
+.left-frame{
+	width:200px;
+	height: 100%;
+	background-color:#323B44;
+	float:left;	
+	color:white;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.left-frame ul{
+	margin: 0;
+	padding-left: 0px;
+	
+}
+.left-frame 	li 	{
+	list-style: none;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.left-frame li a{
+	color: white;
+	text-decoration: none;
+}
+.right-frame{
+	float:left;
+	margin: 20px;
+}

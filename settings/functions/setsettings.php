@@ -1,6 +1,7 @@
 <?php
-include_once "Zumron-live/config.php";
-
+$url_folder = substr(substr($_SERVER["REQUEST_URI"],1), 0, strpos(substr($_SERVER["REQUEST_URI"],1), "/"));
+ 
+include_once "/<?php echo $url_folder ;?>/config.php";
 
 class setsettings {
 	
@@ -36,6 +37,19 @@ class setsettings {
 	
 		
  		$sql = "UPDATE `Settings` SET `value`= '$value' WHERE id = '$id'";
+ 		$result = mysql_query($sql) or die(mysql_error());
+	}
+	
+		function sabnzbdsetsettings($name,$ip,$port,$api,$id) {
+			
+						
+	global $mysql;	
+		
+		mysql_connect($mysql["Server"],$mysql["Username"],$mysql["Password"]);
+		@mysql_select_db($mysql["Database"]) or die( "Unable to select database");
+	
+		
+ 		$sql = "UPDATE `Settings` SET `value2`= '$ip',`value3`= '$port',`value4`= '$api' WHERE id = '$id'";
  		$result = mysql_query($sql) or die(mysql_error());
 	}
 	

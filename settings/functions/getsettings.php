@@ -1,5 +1,7 @@
 <?php
-include_once "Zumron-live/config.php";
+$url_folder = substr(substr($_SERVER["REQUEST_URI"],1), 0, strpos(substr($_SERVER["REQUEST_URI"],1), "/"));
+ 
+include_once "/<?php echo $url_folder ;?>/config.php";
 
 
 class getsettings {
@@ -26,7 +28,7 @@ class getsettings {
 
 				 if ($row[1] == $off) {
 				
-				 	echo '<input  type="hidden" name="update" id="update" value="on">';
+				 	echo '<input  type="hidden" name="update1" id="update1" value="on">';
 						  ?><input  type="text" name="name" id="name" value="<?php echo $Name; ?>"><?php
 						 ?><input  type="hidden" name="id" id="id" value="<?php echo $id; ?>"><?php
 						 ?><input  type="text" name="url" id="url" value="<?php echo $url; ?>"><?php
@@ -199,7 +201,7 @@ function sabnzbd() {
 				$id = $query[5];
 				
 						
-							echo '<input  type="hidden" name="update" id="update" value="on">';
+							echo '<input  type="hidden" name="update1" id="update1" value="on">';
 							 ?><input  type="hidden" name="name" id="name" value="<?php echo $Name; ?>"><?php
 							 ?><input  type="hidden" name="id" id="id" value="<?php echo $id; ?>"><?php
 							 ?><input  type="text" name="ip" id="ip" value="<?php echo $ip; ?>"><?php

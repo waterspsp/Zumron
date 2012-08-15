@@ -9,6 +9,12 @@
 			$settingsset->sabnzbd($_POST['name'],$_POST['update'],$_POST['id'],$_POST['url']);
 							
    }
+   if(isset($_POST['update1'])) {
+			$settingsset = new setsettings();
+
+			$settingsset->sabnzbdsetsettings($_POST['name'],$_POST['ip'],$_POST['port'],$_POST['api'],$_POST['id']);
+							
+   }
 
 ?>
 <link rel="stylesheet" type="text/css" href="/<?php echo $url_folder ;?>/templates/zumron_settings/styles.css" />

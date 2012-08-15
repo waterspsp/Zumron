@@ -1,10 +1,14 @@
 <?php
 include "components/sabnzbd/api.php";	
+include "settings/functions/getsettings.php";
 include "config.php"; 
 $url_folder = substr(substr($_SERVER["REQUEST_URI"],1), 0, strpos(substr($_SERVER["REQUEST_URI"],1), "/"));
-$sabnzbdip = $settings["sabnzbdip"];
-$sabnzbdport = $settings["sabnzbdport"];
-$sabnzbdapi = $settings["sabnzbdapi"];
+$settingsget = new getsettings();
+
+
+Print_r($settingsget->sabnzbdsettings());
+
+
 ?>
 <link rel="stylesheet" type="text/css" href="/<?php echo $url_folder ;?>/templates/zumron_base/styles.css" />
 <body><center>

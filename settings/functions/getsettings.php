@@ -28,7 +28,7 @@ class getsettings {
 
 				 if ($row[1] == $off) {
 				
-				 	echo '<input  type="hidden" name="update1" id="update1" value="on">';
+				 	echo '<input  type="hidden" name="update" id="update" value="on">';
 						  ?><input  type="text" name="name" id="name" value="<?php echo $Name; ?>"><?php
 						 ?><input  type="hidden" name="id" id="id" value="<?php echo $id; ?>"><?php
 						 ?><input  type="text" name="url" id="url" value="<?php echo $url; ?>"><?php

@@ -1,6 +1,15 @@
 ####################################
-Current version. 0.0.3
+Current version. 0.0.5
 ####################################
+0.0.5
+- Added 
+	- Add Spotweb to main menu
+	- Changed order of main menu items
+	- Add NZBmatrix to sub menu items
+	- Add Tvrage to sub menu items
+- Changed
+	- Logo now clickable to http://www.zumron.net
+
 0.0.4
 - Added 
 	- Add Lazy Librarian to main menu

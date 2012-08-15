@@ -1,14 +1,17 @@
 ####################################
-Current version. 0.0.5
+Current version. 0.0.7
 ####################################
+0.0.7
+Since this version the local config.php is only neede to configure the mysql settings.
+after de mysql settings are inserted all the settings are placed/configured with Mysql
+- Added settings page and subpages more details will come later about it.
+
+0.0.6
+ - preperation for mysql
+
 0.0.5
-- Added 
-	- Add Spotweb to main menu
-	- Changed order of main menu items
-	- Add NZBmatrix to sub menu items 
-	- Add Tvrage to sub menu items 
-- Changed
-	- Logo now clickable to http://www.zumron.net
+- added Spotweb to main menu
+- added tvrage to submenu 
 
 0.0.4
 - Added 

@@ -1,4 +1,4 @@
-Zumron Version 0.0.3
+Zumron Version 0.0.7
 -----------------------------------------
 Zumron is an PHP Dashboard for your favortie Usenet tools
 
@@ -6,12 +6,10 @@ Sabnzbd
 Couchpotato
 Sickbeard
 Headphones
-Lazy librarian
-Spotweb
 
 And many other http or http driven project / tools
 
- 
+
 --- Requirements ---
 Things you need to have installed before installation of zumron
 Apache2 
@@ -20,7 +18,7 @@ github
 
 
 --- Installation ---
-Basic apache2 + php5.3 installation 
+Basic apache2 + php5.3 + mysql + phpmyadmin installation 
 
 Goto /var/www/
 git clone https://github.com/rudie2004/Zumron.git
@@ -28,6 +26,9 @@ git clone https://github.com/rudie2004/Zumron.git
 Or 
 
 Unpack in a directory where your webserver is running.
+
+Import the sql file 
+zumron.sql this can be done with phpmyadmin
 
 --- Configuration ---
 

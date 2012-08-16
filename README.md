@@ -9,13 +9,10 @@ Headphones
 Spotweb
 And many other http or http driven project / tools
 
-Current Version
-=====
+##Current Version
 Zumron Version 0.0.9
 
-Requirements
-=====
- 
+##Requirements
 Things you need to have installed before installation of zumron
 Apache2 
 php5.3
@@ -26,8 +23,7 @@ Recommended:
 Phpmyadmin
 
 
-Installation
-=====
+##Installation
 Basic apache2 + php5.3 + mysql + phpmyadmin installation 
 
 Goto /var/www/
@@ -48,6 +44,6 @@ If the installation is succesfull remove install.php and the zumron.sql file
 
 Now you can start Zumron en configure it as you want it.
 
---- Configuration ---
+##Configuration
 
 Edit the config.php page in the root of your Zumron directory.

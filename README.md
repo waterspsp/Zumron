@@ -14,6 +14,7 @@ Zumron is now on version 0.0.9
 
 ##Screenshots
 ![Mainscreen](http://zumron.net/main.png)
+![Adminscreen](http://zumron.net/admin.png)
 
 ##Requirements
 Things you need to have installed before installation of zumron

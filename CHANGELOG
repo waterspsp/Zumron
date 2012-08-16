@@ -1,6 +1,9 @@
 ####################################
-Current version. 0.0.7
+Current version. 0.0.8
 ####################################
+0.0.8
+- Added ?url= option to get the option to go back to last page instead of mainpage
+
 0.0.7
 Since this version the local config.php is only neede to configure the mysql settings.
 after de mysql settings are inserted all the settings are placed/configured with Mysql

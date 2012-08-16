@@ -41,7 +41,7 @@
 				$settingsget->addsubmenu();
 				
 			?>
-			After updating a setting please refresh the browser or close the browser and open it again
+			After updating a setting please refresh refresh the page by hitting F5
 		</div>
 	</body>
 </html>

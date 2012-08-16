@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Machine: localhost
--- Genereertijd: 15 aug 2012 om 23:22
+-- Genereertijd: 16 aug 2012 om 20:12
 -- Serverversie: 5.5.24
 -- PHP-Versie: 5.3.10-1ubuntu3.2
 
@@ -37,15 +37,15 @@ CREATE TABLE IF NOT EXISTS `Settings` (
   `value3` text NOT NULL,
   `value4` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
 
 --
 -- Gegevens worden uitgevoerd voor tabel `Settings`
 --
 
 INSERT INTO `Settings` (`id`, `type`, `visible_name`, `value`, `value2`, `value3`, `value4`) VALUES
-(1, 'menu', 'Sabnzbd', 'off', 'http://localhost', '', ''),
-(2, 'menu', 'SickBeard', 'off', 'http://localhost:80812', '', ''),
+(1, 'menu', 'Sabnzbd', 'off', 'http://localhost:8080', '', ''),
+(2, 'menu', 'SickBeard', 'off', 'http://localhost:8081', '', ''),
 (3, 'menu', 'Couch Potato', 'off', 'http://localhost:8082', '', ''),
 (4, 'menu', 'SpotWeb', 'off', 'http://localhost/spotweb', '', ''),
 (5, 'menu', 'HeadPhones', 'off', 'http://localhost:8181', '', ''),
@@ -56,7 +56,8 @@ INSERT INTO `Settings` (`id`, `type`, `visible_name`, `value`, `value2`, `value3
 (12, 'submenu', 'Nzbmatrix', 'off', 'http://www.nzbmatrix.com', '', ''),
 (13, 'submenu', 'Nzbindex', 'off', 'http://www.nzbindex.nl', '', ''),
 (14, 'submenu', 'Tvrage', 'off', 'http://www.tvrage.com', '', ''),
-(15, 'sabnzbdsetting', 'Sabnzbd', 'off', 'localhost', '8080', 'Fill in the API');
+(15, 'sabnzbdsetting', 'Sabnzbd', 'off', 'localhost', '8080', 'API KEY'),
+(16, 'none', 'Settings', 'on', 'settings/index.php', '', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

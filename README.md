@@ -8,7 +8,7 @@ Sickbeard
 Headphones
 Spotweb
 And many other http or http driven project / tools
-(https://github.com/exploid/songster/raw/master/images/me-sidebyside.gif)
+![Mainscreen](http://zumron.net/main.png)
 ##Current Version
 Zumron Version 0.0.9
 

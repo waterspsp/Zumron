@@ -14,7 +14,15 @@ Print_r($settingsget->sabnzbdsettings());
 <body><center>
 	<div class="all">		
 		<div class="column-middle" id="column1">
-			<div class="box1">
+			<?php
+				mysql_connect($mysql["Server"],$mysql["Username"],$mysql["Password"]);
+											@mysql_select_db($mysql["Database"]) or die( "Unable to select database");
+											$result = mysql_query("select value FROM Settings where type='sabnzbdsetting' and visible_name='Sabnzbd' and value = 'on' ");	
+$row = mysql_fetch_array($result);
+if (!empty($row[0])) {
+
+?>
+				<div class="box1">
 				<div class="dragbox">
 					<center><h1>Sabnzbd current queue</h1></center>
 						<div class="dragbox-content">
@@ -51,6 +59,13 @@ Print_r($settingsget->sabnzbdsettings());
 								$movie1 = $sabnzbd->buildcatbox($xml,$movie,$config,$sabnzbdip,$sabnzbdport,$sabnzbdapi);
 							?>	
 		</div>		
+<?php
+}
+else{
+}
+
+?>
+			
 	</div></center>
 </body>
 

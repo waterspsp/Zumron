@@ -8,7 +8,7 @@ Sickbeard
 Headphones
 Spotweb
 And many other http or http driven project / tools
-
+(https://github.com/exploid/songster/raw/master/images/me-sidebyside.gif)
 ##Current Version
 Zumron Version 0.0.9
 
@@ -16,15 +16,11 @@ Zumron Version 0.0.9
 Things you need to have installed before installation of zumron
 Apache2 
 php5.3
-Mysql
+Mysql server
 github
 
-Recommended:
-Phpmyadmin
-
-
 ##Installation
-Basic apache2 + php5.3 + mysql + phpmyadmin installation 
+Basic apache2 + php5.3 + mysql server
 
 Goto /var/www/
 git clone https://github.com/rudie2004/Zumron.git

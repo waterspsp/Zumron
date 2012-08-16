@@ -1,5 +1,5 @@
-Zumron Version 0.0.9
------------------------------------------
+Zumron - Usenet Dashboard
+=====
 Zumron is an PHP Dashboard for your favortie Usenet tools
 
 Sabnzbd
@@ -9,8 +9,13 @@ Headphones
 Spotweb
 And many other http or http driven project / tools
 
+Current Version
+=====
+Zumron Version 0.0.9
 
---- Requirements ---
+Requirements
+=====
+ 
 Things you need to have installed before installation of zumron
 Apache2 
 php5.3
@@ -21,7 +26,8 @@ Recommended:
 Phpmyadmin
 
 
---- Installation ---
+Installation
+=====
 Basic apache2 + php5.3 + mysql + phpmyadmin installation 
 
 Goto /var/www/

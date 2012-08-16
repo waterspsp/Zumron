@@ -1,6 +1,10 @@
 ####################################
-Current version. 0.0.8
+Current version. 0.0.9
 ####################################
+0.0.9
+- Added install.php to make Zumron much easier to install
+	it just imports the zumron.sql file which creates and set the zumron database 
+	
 0.0.8
 - Added ?url= option to get the option to go back to last page instead of mainpage
 

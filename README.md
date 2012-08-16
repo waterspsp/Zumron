@@ -8,9 +8,12 @@ Sickbeard
 Headphones
 Spotweb
 And many other http or http driven project / tools
+
+##Current version
+Zumron is now on version 0.0.9
+
+##Screenshots
 ![Mainscreen](http://zumron.net/main.png)
-##Current Version
-Zumron Version 0.0.9
 
 ##Requirements
 Things you need to have installed before installation of zumron
@@ -40,6 +43,3 @@ If the installation is succesfull remove install.php and the zumron.sql file
 
 Now you can start Zumron en configure it as you want it.
 
-##Configuration
-
-Edit the config.php page in the root of your Zumron directory.
